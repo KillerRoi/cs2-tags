@@ -16,7 +16,7 @@ namespace Tags;
 public class Tags : BasePlugin, IPluginConfig<Config>
 {
     public override string ModuleName => "Tags";
-    public override string ModuleVersion => "1.14";
+    public override string ModuleVersion => "1.15";
     public override string ModuleAuthor => "schwarper";
 
     public static readonly Dictionary<ulong, Tag> PlayerTagsList = [];
@@ -166,4 +166,5 @@ public class Tags : BasePlugin, IPluginConfig<Config>
 
         return HookResult.Changed;
     }
+
 }
